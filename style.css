@@ -1,0 +1,42 @@
+body{
+	background-color: #34495E;
+	text-align: center;
+}
+header, section, footer{
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+}
+section{
+	background-color: #2C3E50;
+	border-radius: 20px;
+}
+footer, section{
+	color: white;
+}
+header img{
+	width: 70%;
+}
+#image_navigation img{
+	width: 70%;
+}
+#image_navigation, #caracteristiques{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#caracteristiques p{
+	width: 33%;
+}
+#caracteristiques .modif_api img{
+	margin: 10px;
+}
+#fleche_gauche, #fleche_droite{
+	width: 10%;
+}
+#fleche_gauche img, #fleche_droite img{
+	width: 100%;
+}
+#image_pokemon{
+	width: 80%;
+}
